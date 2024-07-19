@@ -1,6 +1,6 @@
-<?php
-loadPartial('head');
-?>
+<!-- <?php
+      loadPartial('head');
+      ?>
 
 <!-- Navbar -->
 <?php
@@ -22,4 +22,4 @@ loadPartial('navbar');
 <!-- FOOTER -->
 <?php
 loadPartial('footer');
-?>
+?> -->

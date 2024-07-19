@@ -1,13 +1,13 @@
-<?php
-loadPartial('head');
-?>
+<!-- <?php
+      loadPartial('head');
+      ?>
 
 <!-- Navbar -->
 <?php
 loadPartial('navbar');
 ?>
 
-
+<!-- 
 <section>
   <div class="container mx-auto p-4 mt-4">
     <div class="text-center text-3xl mb-4 font-bold border border-gray-300 p-3">404 Error</div>
@@ -15,11 +15,11 @@ loadPartial('navbar');
       This page does not exist
     </p>
   </div>
-</section>
+</section> -->
 
 
 
 <!-- FOOTER -->
 <?php
 loadPartial('footer');
-?>
+?> -->

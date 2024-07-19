@@ -1,0 +1,16 @@
+{
+  "name": "bewizi/workopia-php",
+  "description": "Job listing application",
+  "authors": [
+    {
+      "name": "Toluwalase Bewaji",
+      "email": "toluwalase.bewaji@yahoo.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "Framework/",
+      "App\\": "App/"
+    }
+  }
+}
