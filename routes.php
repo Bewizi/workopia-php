@@ -18,6 +18,13 @@ $router->post('/listings', 'ListingsController@store');
 $router->put('/listings/{id}', 'ListingsController@update');
 $router->delete('/listings/{id}', 'ListingsController@destory');
 
+
+$router->get('/auth/register', 'UserController@create');
+$router->get('/auth/login', 'UserController@login');
+
+
+$router->post('/auth/register', 'UserController@store');
+
 // $router->get('/', 'controllers/home.php');
 // $router->get('/listings', 'controllers/listings/index.php');
 // $router->get('/listings/create', 'controllers/listings/create.php');
